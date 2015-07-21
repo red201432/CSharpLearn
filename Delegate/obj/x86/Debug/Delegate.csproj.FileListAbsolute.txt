@@ -1,0 +1,5 @@
+E:\VS2013\Delegate\bin\Debug\Delegate.exe
+E:\VS2013\Delegate\bin\Debug\Delegate.pdb
+E:\VS2013\Delegate\obj\x86\Debug\Delegate.exe
+E:\VS2013\Delegate\obj\x86\Debug\Delegate.pdb
+E:\VS2013\Delegate\obj\x86\Debug\Delegate.csprojResolveAssemblyReference.cache
