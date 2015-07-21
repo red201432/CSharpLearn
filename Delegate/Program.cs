@@ -30,7 +30,6 @@ namespace Delegate
             heater22.Boiled += (new Alarm2()).MakeAlert;
             heater22.Boiled += new heater2.BoiledEventHandler(alarm2.MakeAlert);
             heater22.Boiled += Display2.ShowMsg;
-
             heater22.BoilWater();
 
             //

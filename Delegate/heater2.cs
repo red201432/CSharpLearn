@@ -16,7 +16,7 @@ namespace Delegate
 
         //声明委托
         public delegate void BoiledEventHandler(object sender, BoiledEventArgs e);
-        public event BoiledEventHandler Boiled;
+        public event BoiledEventHandler Boiled;                                     
 
         //定义 BoiledEventArgs 类,传递给Observer所感兴趣的信息
         public class BoiledEventArgs : EventArgs
@@ -36,7 +36,9 @@ namespace Delegate
                 Boiled(this, e);//调用所有注册对象的方法
             }
         }
-
+        /// <summary>
+        /// 加热
+        /// </summary>
         public void BoilWater()
         {
             for (int i = 0; i <= 100; i++)
