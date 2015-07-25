@@ -5,6 +5,9 @@ using System.Text;
 
 namespace Delegate
 {
+    /// <summary>
+    /// 观察者模式的类
+    /// </summary>
     class Alarm2
     {
         public void MakeAlert(object sender, heater2.BoiledEventArgs e)

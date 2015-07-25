@@ -4,3 +4,9 @@ E:\VS2013\Delegate\obj\x86\Debug\Delegate.exe
 E:\VS2013\Delegate\obj\x86\Debug\Delegate.pdb
 E:\VS2013\Delegate\obj\x86\Debug\Delegate.csprojResolveAssemblyReference.cache
 E:\VS2013\Delegate\bin\Debug\Delegate.exe.config
+D:\vs\CSharpLearn\Delegate\bin\Debug\Delegate.exe.config
+D:\vs\CSharpLearn\Delegate\obj\x86\Debug\Delegate.exe
+D:\vs\CSharpLearn\Delegate\obj\x86\Debug\Delegate.pdb
+D:\vs\CSharpLearn\Delegate\bin\Debug\Delegate.exe
+D:\vs\CSharpLearn\Delegate\bin\Debug\Delegate.pdb
+D:\vs\CSharpLearn\Delegate\obj\x86\Debug\Delegate.csprojResolveAssemblyReference.cache

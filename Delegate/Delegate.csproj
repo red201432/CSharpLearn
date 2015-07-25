@@ -46,11 +46,14 @@
   <ItemGroup>
     <Compile Include="Alarm.cs" />
     <Compile Include="Alarm2.cs" />
+    <Compile Include="BubbleSort.cs" />
     <Compile Include="Display.cs" />
     <Compile Include="Display2.cs" />
+    <Compile Include="Employee.cs" />
     <Compile Include="GreetingManager2.cs" />
     <Compile Include="Heater.cs" />
     <Compile Include="heater2.cs" />
+    <Compile Include="MathOperations.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

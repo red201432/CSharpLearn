@@ -5,6 +5,9 @@ using System.Text;
 
 namespace Delegate
 {
+    /// <summary>
+    /// 一开始时的闹钟类
+    /// </summary>
     class Alarm
     {
         public void MakeAlert(int t)
