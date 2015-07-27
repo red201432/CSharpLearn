@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Net;
 using System.Net.Sockets;
+using System.Threading;
 
 namespace SocketClient
 {
@@ -28,6 +29,7 @@ namespace SocketClient
             Console.WriteLine();
             Console.Write("please input the server port:");
             int port = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine(ipadd);
             IPEndPoint ie = new IPEndPoint(IPAddress.Parse(ipadd), port);//服务器的IP和端口
             try
             {
@@ -49,6 +51,7 @@ namespace SocketClient
                 string input = Console.ReadLine();
                 if (input == "exit")
                     break;
+                //Console.WriteLine(Encoding.Unicode.GetBytes(input).ToString());
                 newclient.Send(Encoding.Unicode.GetBytes(input));//处理中文
                 data = new byte[1024];
                 recv = newclient.Receive(data);
@@ -58,7 +61,7 @@ namespace SocketClient
             Console.WriteLine("disconnect from sercer");
             newclient.Shutdown(SocketShutdown.Both);
             newclient.Close();
-
         }
+
     }
 }

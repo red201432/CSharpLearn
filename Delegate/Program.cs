@@ -28,7 +28,7 @@ namespace Delegate
             Alarm2 alarm2 = new Alarm2();
             heater22.Boiled += alarm2.MakeAlert;
             heater22.Boiled += (new Alarm2()).MakeAlert;
-            heater22.Boiled += new heater2.BoiledEventHandler(alarm2.MakeAlert);
+            heater22.Boiled += new heater2.BoiledEventHandler(alarm2.MakeAlert);//为Boiled 事件绑定方法
             heater22.Boiled += Display2.ShowMsg;
             heater22.BoilWater();
 
@@ -38,6 +38,7 @@ namespace Delegate
             heater.BoilEvent += alarm.MakeAlert;                //绑定事件
             heater.BoilEvent += (new Alarm()).MakeAlert;        //绑定事件
             heater.BoilEvent += Display.ShowMsg;
+            
             heater.BoilWater();
 
            // heater.BoilWater();
