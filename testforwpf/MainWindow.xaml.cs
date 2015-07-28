@@ -26,7 +26,12 @@ namespace testforwpf
 
         private void button1_Click(object sender, RoutedEventArgs e)
         {
-            textBlock1.Text="";
+            textBlock1.Text = ((int)'Ā').ToString();
+        }
+
+        private void image1_ImageFailed(object sender, ExceptionRoutedEventArgs e)
+        {
+
         }
     }
 }
