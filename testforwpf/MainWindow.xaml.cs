@@ -19,15 +19,30 @@ namespace testforwpf
     /// </summary>
     public partial class MainWindow : Window
     {
+        Counter oCounter = new Counter();
+
         public MainWindow()
         {
+            oCounter.NumberReached += new NumberReachedEventHandler(oCounter_NumberReached); 
             InitializeComponent();
         }
 
         private void button1_Click(object sender, RoutedEventArgs e)
         {
             textBlock1.Text = ((int)'Ā').ToString();
+            if (txtCountTo.Text == "" || txtReachable.Text == "")
+
+                return;
+
+            oCounter.CountTo(Convert.ToInt32(txtCountTo.Text), Convert.ToInt32(txtReachable.Text)); 
+
         }
+        private void oCounter_NumberReached(object sender, NumberReachedEventArgs e)
+        {
+
+            MessageBox.Show("Reached: " + e.ReachedNumber.ToString());
+
+        } 
 
         private void image1_ImageFailed(object sender, ExceptionRoutedEventArgs e)
         {
