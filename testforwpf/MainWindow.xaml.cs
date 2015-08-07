@@ -23,12 +23,14 @@ namespace testforwpf
 
         public MainWindow()
         {
-            oCounter.NumberReached += new NumberReachedEventHandler(oCounter_NumberReached); 
+            oCounter.NumberReached += new NumberReachedEventHandler(oCounter_NumberReached);
+
             InitializeComponent();
         }
 
         private void button1_Click(object sender, RoutedEventArgs e)
         {
+            txtReachable.Text = DateTime.Now.ToString();
             textBlock1.Text = ((int)'Ā').ToString();
             if (txtCountTo.Text == "" || txtReachable.Text == "")
 

@@ -80,6 +80,7 @@ namespace Delegate
             Console.WriteLine("\u0003");
             Console.WriteLine("\u0004");
             Console.WriteLine('Q');
+            
         }
         //private static void GreetPeople(string name, GreetingDelegate MakeGreeting)
         //{
