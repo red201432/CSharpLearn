@@ -1,0 +1,8 @@
+E:\VS2013\TestForLog4net\obj\x86\Debug\TestForLog4net.csprojResolveAssemblyReference.cache
+E:\VS2013\TestForLog4net\bin\Debug\TestForLog4net.exe.config
+E:\VS2013\TestForLog4net\bin\Debug\TestForLog4net.exe
+E:\VS2013\TestForLog4net\bin\Debug\TestForLog4net.pdb
+E:\VS2013\TestForLog4net\bin\Debug\log4net.dll
+E:\VS2013\TestForLog4net\bin\Debug\log4net.xml
+E:\VS2013\TestForLog4net\obj\x86\Debug\TestForLog4net.exe
+E:\VS2013\TestForLog4net\obj\x86\Debug\TestForLog4net.pdb

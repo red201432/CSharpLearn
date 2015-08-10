@@ -1,0 +1,16 @@
+
+ 
+记录时间：2015-08-10 09:47:27,641 
+线程ID:[1] 
+日志级别：  ERROR 
+出错类：System.String property: [(null)] - 
+错误描述：测试Log4Net日志是否写入
+ 
+
+ 
+记录时间：2015-08-10 09:47:38,468 
+线程ID:[1] 
+日志级别：  ERROR 
+出错类：System.String property: [(null)] - 
+错误描述：测试Log4Net日志是否写入
+ 
