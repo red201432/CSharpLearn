@@ -51,6 +51,38 @@ namespace TestForToArray
         }
 
         /// <summary>
+        /// 删除节点
+        /// </summary>
+        /// <param name="item"></param>
+         public static int i = 0;
+        public void delete(TItem item)
+        {
+            i++;
+            TItem currentItem = this.NodeData;
+            if (currentItem.CompareTo(item) == 0)
+            {
+                //如果这个节点需要删除，那么需要对这个节点进行判断：
+                //1 这个节点没有子节点
+                //2 这个节点只有一层节点
+                //3 这个节点的子节点还有节点
+                if (this.RightTree == null && this.LeftTree == null)
+                {
+                    ;
+                }
+                Console.WriteLine("AAAAAAAAA"+i);
+            }
+            else if (currentItem.CompareTo(item) > 0)
+            {
+                this.LeftTree.delete(item);
+            }
+            else
+            {
+                this.RightTree.delete(item);
+            }
+            
+        }
+
+        /// <summary>
         /// 遍历并输出
         /// </summary>
         public void walkTree()

@@ -10,3 +10,5 @@ E:\VS2013\testforwpf\obj\x86\Debug\testforwpf.csproj.GenerateResource.Cache
 E:\VS2013\testforwpf\obj\x86\Debug\testforwpf.exe
 E:\VS2013\testforwpf\obj\x86\Debug\testforwpf.pdb
 E:\VS2013\testforwpf\bin\Debug\testforwpf.exe.config
+E:\VS2013\testforwpf\obj\x86\Debug\ClickForm.baml
+E:\VS2013\testforwpf\obj\x86\Debug\ClickForm.g.cs

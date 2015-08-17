@@ -38,7 +38,8 @@ namespace TestForToArray
             tree1.insert(4);
             tree1.insert(8);
             tree1.walkTree();
-
+            tree1.delete(10);
+            tree1.walkTree();
         }
     }
 }
