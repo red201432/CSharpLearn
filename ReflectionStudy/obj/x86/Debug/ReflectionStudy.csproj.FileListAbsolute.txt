@@ -1,0 +1,8 @@
+E:\VS2013\ReflectionStudy\bin\Debug\ReflectionStudy.exe
+E:\VS2013\ReflectionStudy\bin\Debug\ReflectionStudy.pdb
+E:\VS2013\ReflectionStudy\obj\x86\Debug\ReflectionStudy.exe
+E:\VS2013\ReflectionStudy\obj\x86\Debug\ReflectionStudy.pdb
+E:\VS2013\ReflectionStudy\bin\Debug\ReflectionStudy.exe.config
+E:\VS2013\ReflectionStudy\bin\Debug\Basic.dll
+E:\VS2013\ReflectionStudy\bin\Debug\Lib35.dll
+E:\VS2013\ReflectionStudy\obj\x86\Debug\ReflectionStudy.csprojResolveAssemblyReference.cache

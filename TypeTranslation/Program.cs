@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-
+using System.Reflection;
 namespace TypeTranslation
 {
     /// <summary>
@@ -71,6 +71,11 @@ namespace TypeTranslation
         }
         static void Main(string[] args)
         {
+            MethodInfo[] ms = typeof(object).GetMethods();
+            foreach (MethodInfo m in ms)
+            {
+                Console.WriteLine(m.ToString());
+            }
             Console.WriteLine(FiboCalculator.Equals(10, 0.0));
             Console.WriteLine("***Fun With Conversions ***");
             int myInt = 12345678;
