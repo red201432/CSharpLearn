@@ -71,7 +71,8 @@ namespace SocketClient
                 data = new byte[1024];
                 int recv = newclient.Receive(data);
                 string stringdata = Encoding.ASCII.GetString(data, 0, recv);
-                Console.WriteLine(stringdata);
+                //Console.WriteLine(stringdata);
+                
                 Thread.Sleep(30000);
             }
             

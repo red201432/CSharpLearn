@@ -26,9 +26,10 @@ namespace Delegate
         {
             heater2 heater22 = new heater2();
             Alarm2 alarm2 = new Alarm2();
+            //为Boiled 事件绑定方法
             heater22.Boiled += alarm2.MakeAlert;
             heater22.Boiled += (new Alarm2()).MakeAlert;
-            heater22.Boiled += new heater2.BoiledEventHandler(alarm2.MakeAlert);//为Boiled 事件绑定方法
+            heater22.Boiled += new heater2.BoiledEventHandler(alarm2.MakeAlert);
             heater22.Boiled += Display2.ShowMsg;
             heater22.BoilWater();
 
@@ -80,7 +81,8 @@ namespace Delegate
             Console.WriteLine("\u0003");
             Console.WriteLine("\u0004");
             Console.WriteLine('Q');
-            
+            MyGenericDelegate<string> strTarget = new MyGenericDelegate<string>(StringTarget);
+            strTarget("hello world");
         }
         //private static void GreetPeople(string name, GreetingDelegate MakeGreeting)
         //{
@@ -102,6 +104,9 @@ namespace Delegate
         {
             Console.WriteLine("早上好," + name);
         }
-
+        static void StringTarget(string arg)
+        {
+            Console.WriteLine("arg in UpperCase is :" + arg.ToUpper());
+        }
     }
 }

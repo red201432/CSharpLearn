@@ -1,0 +1,5 @@
+E:\VS2013\TypeTranslation\bin\Debug\TypeTranslation.exe
+E:\VS2013\TypeTranslation\bin\Debug\TypeTranslation.pdb
+E:\VS2013\TypeTranslation\obj\x86\Debug\TypeTranslation.exe
+E:\VS2013\TypeTranslation\obj\x86\Debug\TypeTranslation.pdb
+E:\VS2013\TypeTranslation\bin\Debug\TypeTranslation.exe.config

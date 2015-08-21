@@ -1,0 +1,5 @@
+E:\VS2013\QueryDB\bin\Debug\QueryDB.exe
+E:\VS2013\QueryDB\bin\Debug\QueryDB.pdb
+E:\VS2013\QueryDB\obj\x86\Debug\QueryDB.exe
+E:\VS2013\QueryDB\obj\x86\Debug\QueryDB.pdb
+E:\VS2013\QueryDB\bin\Debug\QueryDB.exe.config

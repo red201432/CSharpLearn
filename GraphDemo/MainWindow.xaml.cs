@@ -54,7 +54,7 @@ namespace GraphDemo
             }
             Action doPlotButtonWorkAction = new Action(doPlotButtonWork);
             doPlotButtonWorkAction.BeginInvoke(null, null);
-
+            #region 注释掉的内容
             //int byetePerPixel = (graphBitmap.Format.BitsPerPixel + 7) / 8;
             //int stride = byetePerPixel * graphBitmap.PixelWidth;
             //int dataSize = stride * graphBitmap.PixelHeight;
@@ -72,6 +72,7 @@ namespace GraphDemo
             //duration.Content = string.Format("Duration (ms):{0}", watch.ElapsedMilliseconds);
             //graphBitmap.WritePixels(new Int32Rect(0, 0, graphBitmap.PixelWidth, graphBitmap.PixelHeight), data, stride, 0);
             //graphImage.Source = graphBitmap;
+            #endregion
         }
         private void doPlotButtonWork()
         {

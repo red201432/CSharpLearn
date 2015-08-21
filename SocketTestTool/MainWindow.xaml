@@ -1,0 +1,48 @@
+﻿<Window x:Class="SocketTestTool.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="SocketTestTool" Height="350" Width="525" Loaded="Window_Loaded">
+       
+        <DockPanel>
+            <Menu Height="23" HorizontalAlignment="Left" Name="MainMenu" VerticalAlignment="Top" Width="auto" DockPanel.Dock="Top">
+                <MenuItem Header="退出" Name="ExitMenuItem" Click="OnClose"/>
+                <MenuItem Header="帮助" Name="HelpMenuItem"/>
+            </Menu>
+        
+        <!--<ToolBar DockPanel.Dock="Top">
+            <Button Name="CreateBtn" Content="创建"></Button>
+            <Button Name="DeleteBtn" Content="删除"></Button>
+            <Button Name="SendMessageBtn" Content="发送" ></Button>
+        </ToolBar>-->
+        <StatusBar DockPanel.Dock="Bottom" Background="AliceBlue" Height="30" Width="auto">
+            <StatusBarItem>
+                <TextBlock Name="StatusText" Text="Ready"></TextBlock>
+            </StatusBarItem>
+        </StatusBar>
+        <Grid DockPanel.Dock="Left" Background="AliceBlue">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition>
+                </ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <GridSplitter Grid.Column="0" Width="5" Background="Gray">
+                
+            </GridSplitter>
+            <StackPanel Grid.Column="0" VerticalAlignment="Stretch">
+                <Label>服务器地址：</Label>
+                <TextBox Name="SocketHostName" Width="200" BorderBrush="Black">127.0.0.1</TextBox>
+                <Label>端口号:</Label>
+                <TextBox Name="SocketHostPort" Width="200" BorderBrush="Black">8870</TextBox>
+                <Label>连接数量：</Label>
+                <TextBox Name="ClientNumber" Width="200" BorderBrush="Black">100</TextBox>
+                <Label>消息间隔：</Label>
+                <TextBox Name="TimeInterval" Width="200" BorderBrush="Black"></TextBox>
+                <Separator></Separator>
+                <Button Name="CreateClients" Width="70" Click="CreateClientsClick">创建并连接</Button>
+            </StackPanel>
+            <StackPanel Grid.Column="1" VerticalAlignment="Stretch">
+                <TextBox Name="ConnStatus" TextWrapping="WrapWithOverflow" VerticalScrollBarVisibility="Visible" IsManipulationEnabled="True" MinLines="100"></TextBox>
+            </StackPanel>
+        </Grid>
+    </DockPanel>
+</Window>

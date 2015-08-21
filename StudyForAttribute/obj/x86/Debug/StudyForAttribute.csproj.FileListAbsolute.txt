@@ -1,0 +1,6 @@
+E:\VS2013\StudyForAttribute\bin\Debug\StudyForAttribute.exe
+E:\VS2013\StudyForAttribute\bin\Debug\StudyForAttribute.pdb
+E:\VS2013\StudyForAttribute\obj\x86\Debug\StudyForAttribute.exe
+E:\VS2013\StudyForAttribute\obj\x86\Debug\StudyForAttribute.pdb
+E:\VS2013\StudyForAttribute\bin\Debug\StudyForAttribute.exe.config
+E:\VS2013\StudyForAttribute\obj\x86\Debug\StudyForAttribute.csprojResolveAssemblyReference.cache

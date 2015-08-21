@@ -48,6 +48,7 @@
     <Compile Include="Alarm2.cs" />
     <Compile Include="Display.cs" />
     <Compile Include="Display2.cs" />
+    <Compile Include="GenericDelegate.cs" />
     <Compile Include="GreetingManager2.cs" />
     <Compile Include="Heater.cs" />
     <Compile Include="heater2.cs" />

@@ -1,0 +1,12 @@
+E:\VS2013\SocketTestTool\bin\Debug\SocketTestTool.exe
+E:\VS2013\SocketTestTool\bin\Debug\SocketTestTool.pdb
+E:\VS2013\SocketTestTool\obj\x86\Debug\MainWindow.baml
+E:\VS2013\SocketTestTool\obj\x86\Debug\MainWindow.g.cs
+E:\VS2013\SocketTestTool\obj\x86\Debug\App.g.cs
+E:\VS2013\SocketTestTool\obj\x86\Debug\SocketTestTool_MarkupCompile.cache
+E:\VS2013\SocketTestTool\obj\x86\Debug\SocketTestTool.g.resources
+E:\VS2013\SocketTestTool\obj\x86\Debug\SocketTestTool.Properties.Resources.resources
+E:\VS2013\SocketTestTool\obj\x86\Debug\SocketTestTool.csproj.GenerateResource.Cache
+E:\VS2013\SocketTestTool\obj\x86\Debug\SocketTestTool.exe
+E:\VS2013\SocketTestTool\obj\x86\Debug\SocketTestTool.pdb
+E:\VS2013\SocketTestTool\bin\Debug\SocketTestTool.exe.config
