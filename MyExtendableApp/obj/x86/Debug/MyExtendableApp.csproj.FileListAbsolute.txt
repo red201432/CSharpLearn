@@ -1,0 +1,11 @@
+E:\VS2013\MyExtendableApp\bin\Debug\MyExtendableApp.exe
+E:\VS2013\MyExtendableApp\bin\Debug\MyExtendableApp.pdb
+E:\VS2013\MyExtendableApp\bin\Debug\CommonSnappableTypes.dll
+E:\VS2013\MyExtendableApp\bin\Debug\CommonSnappableTypes.pdb
+E:\VS2013\MyExtendableApp\obj\x86\Debug\MyExtendableApp.csprojResolveAssemblyReference.cache
+E:\VS2013\MyExtendableApp\obj\x86\Debug\MyExtendableApp.Form1.resources
+E:\VS2013\MyExtendableApp\obj\x86\Debug\MyExtendableApp.Properties.Resources.resources
+E:\VS2013\MyExtendableApp\obj\x86\Debug\MyExtendableApp.csproj.GenerateResource.Cache
+E:\VS2013\MyExtendableApp\obj\x86\Debug\MyExtendableApp.exe
+E:\VS2013\MyExtendableApp\obj\x86\Debug\MyExtendableApp.pdb
+E:\VS2013\MyExtendableApp\bin\Debug\MyExtendableApp.exe.config

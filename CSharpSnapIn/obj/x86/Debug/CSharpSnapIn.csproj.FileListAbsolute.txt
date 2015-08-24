@@ -1,0 +1,9 @@
+E:\VS2013\CSharpSnapIn\obj\x86\Debug\CSharpSnapIn.csprojResolveAssemblyReference.cache
+E:\VS2013\CSharpSnapIn\obj\x86\Debug\CSharpSnapIn.Properties.Resources.resources
+E:\VS2013\CSharpSnapIn\obj\x86\Debug\CSharpSnapIn.csproj.GenerateResource.Cache
+E:\VS2013\CSharpSnapIn\bin\Debug\CSharpSnapIn.exe
+E:\VS2013\CSharpSnapIn\bin\Debug\CSharpSnapIn.pdb
+E:\VS2013\CSharpSnapIn\bin\Debug\CommonSnappableTypes.dll
+E:\VS2013\CSharpSnapIn\bin\Debug\CommonSnappableTypes.pdb
+E:\VS2013\CSharpSnapIn\obj\x86\Debug\CSharpSnapIn.exe
+E:\VS2013\CSharpSnapIn\obj\x86\Debug\CSharpSnapIn.pdb

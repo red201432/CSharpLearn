@@ -1,0 +1,4 @@
+E:\VS2013\CommonSnappableTypes\bin\Debug\CommonSnappableTypes.dll
+E:\VS2013\CommonSnappableTypes\bin\Debug\CommonSnappableTypes.pdb
+E:\VS2013\CommonSnappableTypes\obj\Debug\CommonSnappableTypes.dll
+E:\VS2013\CommonSnappableTypes\obj\Debug\CommonSnappableTypes.pdb
