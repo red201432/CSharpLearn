@@ -1,0 +1,5 @@
+E:\VS2013\EntityFramework\bin\Debug\EntityFramework.exe.config
+E:\VS2013\EntityFramework\bin\Debug\EntityFramework.exe
+E:\VS2013\EntityFramework\bin\Debug\EntityFramework.pdb
+E:\VS2013\EntityFramework\obj\x86\Debug\EntityFramework.exe
+E:\VS2013\EntityFramework\obj\x86\Debug\EntityFramework.pdb

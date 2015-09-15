@@ -1,0 +1,5 @@
+E:\VS2013\DirectoryInfoAndFile\bin\Debug\DirectoryInfoAndFile.exe
+E:\VS2013\DirectoryInfoAndFile\bin\Debug\DirectoryInfoAndFile.pdb
+E:\VS2013\DirectoryInfoAndFile\obj\x86\Debug\DirectoryInfoAndFile.exe
+E:\VS2013\DirectoryInfoAndFile\obj\x86\Debug\DirectoryInfoAndFile.pdb
+E:\VS2013\DirectoryInfoAndFile\bin\Debug\DirectoryInfoAndFile.exe.config

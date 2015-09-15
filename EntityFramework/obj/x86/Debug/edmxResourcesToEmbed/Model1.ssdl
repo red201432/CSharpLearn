@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="TXGPS_2011Model.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+  <EntityContainer Name="TXGPS_2011ModelStoreContainer">
+    <EntitySet Name="tMapx" EntityType="TXGPS_2011Model.Store.tMapx" store:Type="Tables" Schema="dbo" />
+  </EntityContainer>
+  <EntityType Name="tMapx">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Lo" Type="decimal" Nullable="false" Precision="12" Scale="8" />
+    <Property Name="La" Type="decimal" Nullable="false" Precision="12" Scale="8" />
+    <Property Name="Geo" Type="varchar" Nullable="false" MaxLength="200" />
+  </EntityType>
+</Schema>

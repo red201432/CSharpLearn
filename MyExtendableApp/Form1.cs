@@ -38,7 +38,7 @@ namespace MyExtendableApp
             Assembly snapAsm = null;
             try
             {
-                snapAsm = Assembly.LoadFrom(path);
+                snapAsm = Assembly.LoadFrom(path);//将动态程序集加入到内存
             }
             catch (Exception ex)
             {
@@ -47,14 +47,15 @@ namespace MyExtendableApp
             }
             var theClassTypes = from t in snapAsm.GetTypes()
                                 where t.IsClass && (t.GetInterface("IAppFunctionality") != null)
-                                select t;
+                                select t;//判断IAppFunctionality是否在程序集内
             //创建对象调用DoIt
             foreach (Type t in theClassTypes)
             {
                 foundSnapIn = true;
                 //使用晚期绑定建立类型
                 IAppFunctionality itfApp = (IAppFunctionality)snapAsm.CreateInstance(t.FullName, true);
-                itfApp.DoIt();
+                itfApp.DoIt();//调用的方法必须在接口内进行定义
+                
                 lstLoadedSnapIns.Items.Add(t.FullName);
             }
             return foundSnapIn;

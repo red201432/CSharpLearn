@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF_Simple", "WPF_Simple.csproj", "{FA09FD1C-762F-4BFE-B43C-907F5D982454}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FA09FD1C-762F-4BFE-B43C-907F5D982454}.Debug|x86.ActiveCfg = Debug|x86
+		{FA09FD1C-762F-4BFE-B43C-907F5D982454}.Debug|x86.Build.0 = Debug|x86
+		{FA09FD1C-762F-4BFE-B43C-907F5D982454}.Release|x86.ActiveCfg = Release|x86
+		{FA09FD1C-762F-4BFE-B43C-907F5D982454}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

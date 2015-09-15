@@ -1,0 +1,5 @@
+E:\VS2013\myProcess\bin\Debug\myProcess.exe
+E:\VS2013\myProcess\bin\Debug\myProcess.pdb
+E:\VS2013\myProcess\obj\x86\Debug\myProcess.exe
+E:\VS2013\myProcess\obj\x86\Debug\myProcess.pdb
+E:\VS2013\myProcess\bin\Debug\myProcess.exe.config

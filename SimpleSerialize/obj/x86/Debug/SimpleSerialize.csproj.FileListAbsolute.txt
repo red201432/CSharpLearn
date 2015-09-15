@@ -1,0 +1,5 @@
+E:\VS2013\SimpleSerialize\bin\Debug\SimpleSerialize.exe
+E:\VS2013\SimpleSerialize\bin\Debug\SimpleSerialize.pdb
+E:\VS2013\SimpleSerialize\obj\x86\Debug\SimpleSerialize.exe
+E:\VS2013\SimpleSerialize\obj\x86\Debug\SimpleSerialize.pdb
+E:\VS2013\SimpleSerialize\bin\Debug\SimpleSerialize.exe.config

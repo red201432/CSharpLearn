@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="TXGPS_2011ModelStoreContainer" CdmEntityContainer="TXGPS_2011Entities">
+    <EntitySetMapping Name="tUser">
+      <EntityTypeMapping TypeName="TXGPS_2011Model.tUser">
+        <MappingFragment StoreEntitySet="tUser">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="tID" ColumnName="tID" />
+          <ScalarProperty Name="tids" ColumnName="tids" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="type" ColumnName="type" />
+          <ScalarProperty Name="password" ColumnName="password" />
+          <ScalarProperty Name="trueName" ColumnName="trueName" />
+          <ScalarProperty Name="sex" ColumnName="sex" />
+          <ScalarProperty Name="tel" ColumnName="tel" />
+          <ScalarProperty Name="mobile" ColumnName="mobile" />
+          <ScalarProperty Name="email" ColumnName="email" />
+          <ScalarProperty Name="addr" ColumnName="addr" />
+          <ScalarProperty Name="policy" ColumnName="policy" />
+          <ScalarProperty Name="policyOrder" ColumnName="policyOrder" />
+          <ScalarProperty Name="config" ColumnName="config" />
+          <ScalarProperty Name="remark" ColumnName="remark" />
+          <ScalarProperty Name="ex" ColumnName="ex" />
+          <ScalarProperty Name="guiid" ColumnName="guiid" />
+          <ScalarProperty Name="enabled" ColumnName="enabled" />
+          <ScalarProperty Name="UpdateTime" ColumnName="UpdateTime" />
+          <ScalarProperty Name="ProductType" ColumnName="ProductType" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

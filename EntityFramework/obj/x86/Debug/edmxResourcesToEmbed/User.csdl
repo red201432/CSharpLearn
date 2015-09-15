@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="TXGPS_2011Model" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
+  <EntityContainer Name="TXGPS_2011Entities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="tUser" EntityType="TXGPS_2011Model.tUser" />
+  </EntityContainer>
+  <EntityType Name="tUser">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="tID" Type="Int32" Nullable="false" />
+    <Property Name="tids" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="name" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="type" Type="Int32" Nullable="false" />
+    <Property Name="password" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="trueName" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="sex" Type="Int32" Nullable="false" />
+    <Property Name="tel" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="mobile" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="email" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="addr" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="policy" Type="String" Nullable="false" MaxLength="48" Unicode="false" FixedLength="false" />
+    <Property Name="policyOrder" Type="String" Nullable="false" MaxLength="24" Unicode="false" FixedLength="false" />
+    <Property Name="config" Type="Int32" Nullable="false" />
+    <Property Name="remark" Type="String" Nullable="false" MaxLength="500" Unicode="true" FixedLength="false" />
+    <Property Name="ex" Type="String" Nullable="false" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="guiid" Type="String" MaxLength="200" Unicode="false" FixedLength="false" />
+    <Property Name="enabled" Type="Int32" Nullable="false" />
+    <Property Name="UpdateTime" Type="DateTime" Nullable="false" />
+    <Property Name="ProductType" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+  </EntityType>
+</Schema>

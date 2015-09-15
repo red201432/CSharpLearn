@@ -1,0 +1,4 @@
+E:\VS2013\dynamic\bin\Debug\dynamic.exe
+E:\VS2013\dynamic\bin\Debug\dynamic.pdb
+E:\VS2013\dynamic\obj\x86\Debug\dynamic.exe
+E:\VS2013\dynamic\obj\x86\Debug\dynamic.pdb

@@ -1,0 +1,5 @@
+E:\VS2013\MagicEightBallService\bin\Debug\MagicEightBallService.dll
+E:\VS2013\MagicEightBallService\bin\Debug\MagicEightBallService.pdb
+E:\VS2013\MagicEightBallService\obj\Debug\MagicEightBallService.dll
+E:\VS2013\MagicEightBallService\obj\Debug\MagicEightBallService.pdb
+E:\VS2013\MagicEightBallService\obj\Debug\MagicEightBallService.csprojResolveAssemblyReference.cache

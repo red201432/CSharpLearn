@@ -13,5 +13,9 @@ namespace CSharpSnapIn
         {
             MessageBox.Show("You have just used the C# snap in!");
         }
+        void sayHello()
+        {
+            MessageBox.Show("Hello world,By C#");
+        }
     }
 }

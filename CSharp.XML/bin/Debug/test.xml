@@ -1,0 +1,6 @@
+<root>
+  <Car ID="1000">
+    <Name Name="Jonh" />
+    <Color Color="blue" />
+  </Car>
+</root>

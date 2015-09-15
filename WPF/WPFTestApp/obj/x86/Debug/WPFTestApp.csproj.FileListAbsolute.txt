@@ -1,0 +1,12 @@
+E:\VS2013\WPF\WPFTestApp\bin\Debug\WPFTestApp.exe
+E:\VS2013\WPF\WPFTestApp\bin\Debug\WPFTestApp.pdb
+E:\VS2013\WPF\WPFTestApp\obj\x86\Debug\MainWindow.baml
+E:\VS2013\WPF\WPFTestApp\obj\x86\Debug\MainWindow.g.cs
+E:\VS2013\WPF\WPFTestApp\obj\x86\Debug\App.g.cs
+E:\VS2013\WPF\WPFTestApp\obj\x86\Debug\WPFTestApp_MarkupCompile.cache
+E:\VS2013\WPF\WPFTestApp\obj\x86\Debug\WPFTestApp.g.resources
+E:\VS2013\WPF\WPFTestApp\obj\x86\Debug\WPFTestApp.Properties.Resources.resources
+E:\VS2013\WPF\WPFTestApp\obj\x86\Debug\WPFTestApp.csproj.GenerateResource.Cache
+E:\VS2013\WPF\WPFTestApp\obj\x86\Debug\WPFTestApp.exe
+E:\VS2013\WPF\WPFTestApp\obj\x86\Debug\WPFTestApp.pdb
+E:\VS2013\WPF\WPFTestApp\bin\Debug\WPFTestApp.exe.config

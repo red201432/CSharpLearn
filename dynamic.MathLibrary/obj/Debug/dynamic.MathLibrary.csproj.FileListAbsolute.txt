@@ -1,0 +1,4 @@
+E:\VS2013\dynamic.MathLibrary\bin\Debug\dynamic.MathLibrary.dll
+E:\VS2013\dynamic.MathLibrary\bin\Debug\dynamic.MathLibrary.pdb
+E:\VS2013\dynamic.MathLibrary\obj\Debug\dynamic.MathLibrary.dll
+E:\VS2013\dynamic.MathLibrary\obj\Debug\dynamic.MathLibrary.pdb

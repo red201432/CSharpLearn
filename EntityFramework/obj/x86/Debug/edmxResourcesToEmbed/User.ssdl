@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="TXGPS_2011Model.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+  <EntityContainer Name="TXGPS_2011ModelStoreContainer">
+    <EntitySet Name="tUser" EntityType="TXGPS_2011Model.Store.tUser" store:Type="Tables" Schema="dbo" />
+  </EntityContainer>
+  <EntityType Name="tUser">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="tID" Type="int" Nullable="false" />
+    <Property Name="tids" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="name" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="type" Type="int" Nullable="false" />
+    <Property Name="password" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="trueName" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="sex" Type="int" Nullable="false" />
+    <Property Name="tel" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="mobile" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="email" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="addr" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="policy" Type="varchar" Nullable="false" MaxLength="48" />
+    <Property Name="policyOrder" Type="varchar" Nullable="false" MaxLength="24" />
+    <Property Name="config" Type="int" Nullable="false" />
+    <Property Name="remark" Type="nvarchar" Nullable="false" MaxLength="500" />
+    <Property Name="ex" Type="varchar(max)" Nullable="false" />
+    <Property Name="guiid" Type="varchar" MaxLength="200" />
+    <Property Name="enabled" Type="int" Nullable="false" />
+    <Property Name="UpdateTime" Type="datetime" Nullable="false" />
+    <Property Name="ProductType" Type="varchar" Nullable="false" MaxLength="50" />
+  </EntityType>
+</Schema>

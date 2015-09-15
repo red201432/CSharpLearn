@@ -1,0 +1,17 @@
+E:\VS2013\WPF\WPF_Simple\bin\Debug\WPF_Simple.exe.config
+E:\VS2013\WPF\WPF_Simple\obj\x86\Debug\WPF_Simple.csprojResolveAssemblyReference.cache
+E:\VS2013\WPF\WPF_Simple\bin\Debug\WPF_Simple.exe
+E:\VS2013\WPF\WPF_Simple\bin\Debug\WPF_Simple.pdb
+E:\VS2013\WPF\WPF_Simple\bin\Debug\System.Windows.Interactivity.dll
+E:\VS2013\WPF\WPF_Simple\bin\Debug\System.Windows.Interactivity.xml
+E:\VS2013\WPF\WPF_Simple\bin\Debug\de\System.Windows.Interactivity.resources.dll
+E:\VS2013\WPF\WPF_Simple\bin\Debug\en\System.Windows.Interactivity.resources.dll
+E:\VS2013\WPF\WPF_Simple\bin\Debug\es\System.Windows.Interactivity.resources.dll
+E:\VS2013\WPF\WPF_Simple\bin\Debug\fr\System.Windows.Interactivity.resources.dll
+E:\VS2013\WPF\WPF_Simple\bin\Debug\it\System.Windows.Interactivity.resources.dll
+E:\VS2013\WPF\WPF_Simple\bin\Debug\ja\System.Windows.Interactivity.resources.dll
+E:\VS2013\WPF\WPF_Simple\bin\Debug\ko\System.Windows.Interactivity.resources.dll
+E:\VS2013\WPF\WPF_Simple\bin\Debug\zh-Hans\System.Windows.Interactivity.resources.dll
+E:\VS2013\WPF\WPF_Simple\bin\Debug\zh-Hant\System.Windows.Interactivity.resources.dll
+E:\VS2013\WPF\WPF_Simple\obj\x86\Debug\WPF_Simple.exe
+E:\VS2013\WPF\WPF_Simple\obj\x86\Debug\WPF_Simple.pdb

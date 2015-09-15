@@ -70,12 +70,18 @@ namespace ReflectionStudy
             try
             {
                 Type t = asm.GetType("ReflectionStudy.Car");
-                object obj = Activator.CreateInstance(t);
-                Console.WriteLine("Created a {0} using late bingding",obj);
-                MethodInfo mi = t.GetMethod("SayHello");//调用对象的方法
-                MethodInfo m2 = t.GetMethod("newCar");
-                mi.Invoke(obj, null);
-                m2.Invoke(obj,new object[]{"aodeo",12});
+                //采用动态类型 ,更符合一般的调用方法
+                dynamic obj = Activator.CreateInstance(t);
+                obj.SayHello();
+                obj.newCar("ada",12);
+                #region
+                //object obj = Activator.CreateInstance(t);
+                //Console.WriteLine("Created a {0} using late bingding",obj);
+                //MethodInfo mi = t.GetMethod("SayHello");//调用对象的方法
+                //MethodInfo m2 = t.GetMethod("newCar");
+                //mi.Invoke(obj, null);
+                //m2.Invoke(obj,new object[]{"aodeo",12});
+                #endregion
             }
             catch (Exception ex)
             {

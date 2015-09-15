@@ -1,0 +1,5 @@
+E:\VS2013\AsyncDelegate\bin\Debug\AsyncDelegate.exe
+E:\VS2013\AsyncDelegate\bin\Debug\AsyncDelegate.pdb
+E:\VS2013\AsyncDelegate\obj\x86\Debug\AsyncDelegate.exe
+E:\VS2013\AsyncDelegate\obj\x86\Debug\AsyncDelegate.pdb
+E:\VS2013\AsyncDelegate\bin\Debug\AsyncDelegate.exe.config

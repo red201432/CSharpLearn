@@ -1,0 +1,8 @@
+E:\VS2013\MyTimer\bin\Debug\MyTimer.exe
+E:\VS2013\MyTimer\bin\Debug\MyTimer.pdb
+E:\VS2013\MyTimer\obj\x86\Debug\MyTimer.Form1.resources
+E:\VS2013\MyTimer\obj\x86\Debug\MyTimer.Properties.Resources.resources
+E:\VS2013\MyTimer\obj\x86\Debug\MyTimer.csproj.GenerateResource.Cache
+E:\VS2013\MyTimer\obj\x86\Debug\MyTimer.exe
+E:\VS2013\MyTimer\obj\x86\Debug\MyTimer.pdb
+E:\VS2013\MyTimer\bin\Debug\MyTimer.exe.config

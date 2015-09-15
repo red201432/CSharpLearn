@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="TXGPS_2011ModelStoreContainer" CdmEntityContainer="TXGPS_2011Entities1">
+    <EntitySetMapping Name="tMapx">
+      <EntityTypeMapping TypeName="TXGPS_2011Model.tMapx">
+        <MappingFragment StoreEntitySet="tMapx">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Lo" ColumnName="Lo" />
+          <ScalarProperty Name="La" ColumnName="La" />
+          <ScalarProperty Name="Geo" ColumnName="Geo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

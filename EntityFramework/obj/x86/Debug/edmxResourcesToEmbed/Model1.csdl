@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="TXGPS_2011Model" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
+  <EntityContainer Name="TXGPS_2011Entities1" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="tMapx" EntityType="TXGPS_2011Model.tMapx" />
+  </EntityContainer>
+  <EntityType Name="tMapx">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Lo" Type="Decimal" Nullable="false" Precision="12" Scale="8" />
+    <Property Name="La" Type="Decimal" Nullable="false" Precision="12" Scale="8" />
+    <Property Name="Geo" Type="String" Nullable="false" MaxLength="200" Unicode="false" FixedLength="false" />
+  </EntityType>
+</Schema>

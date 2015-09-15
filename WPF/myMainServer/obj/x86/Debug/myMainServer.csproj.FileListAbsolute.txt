@@ -1,0 +1,12 @@
+E:\VS2013\WPF\myMainServer\bin\Debug\myMainServer.exe
+E:\VS2013\WPF\myMainServer\bin\Debug\myMainServer.pdb
+E:\VS2013\WPF\myMainServer\obj\x86\Debug\MainWindow.baml
+E:\VS2013\WPF\myMainServer\obj\x86\Debug\MainWindow.g.cs
+E:\VS2013\WPF\myMainServer\obj\x86\Debug\App.g.cs
+E:\VS2013\WPF\myMainServer\obj\x86\Debug\myMainServer_MarkupCompile.cache
+E:\VS2013\WPF\myMainServer\obj\x86\Debug\myMainServer.g.resources
+E:\VS2013\WPF\myMainServer\obj\x86\Debug\myMainServer.Properties.Resources.resources
+E:\VS2013\WPF\myMainServer\obj\x86\Debug\myMainServer.csproj.GenerateResource.Cache
+E:\VS2013\WPF\myMainServer\obj\x86\Debug\myMainServer.exe
+E:\VS2013\WPF\myMainServer\obj\x86\Debug\myMainServer.pdb
+E:\VS2013\WPF\myMainServer\bin\Debug\myMainServer.exe.config

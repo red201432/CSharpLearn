@@ -1,0 +1,8 @@
+E:\VS2013\Dynamic.COM\bin\Debug\Dynamic.COM.exe
+E:\VS2013\Dynamic.COM\bin\Debug\Dynamic.COM.pdb
+E:\VS2013\Dynamic.COM\obj\x86\Debug\Dynamic.COM.Form1.resources
+E:\VS2013\Dynamic.COM\obj\x86\Debug\Dynamic.COM.Properties.Resources.resources
+E:\VS2013\Dynamic.COM\obj\x86\Debug\Dynamic.COM.csproj.GenerateResource.Cache
+E:\VS2013\Dynamic.COM\obj\x86\Debug\Dynamic.COM.exe
+E:\VS2013\Dynamic.COM\obj\x86\Debug\Dynamic.COM.pdb
+E:\VS2013\Dynamic.COM\bin\Debug\Dynamic.COM.exe.config

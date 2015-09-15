@@ -1,0 +1,5 @@
+E:\VS2013\CSharp.XML\bin\Debug\CSharp.XML.exe.config
+E:\VS2013\CSharp.XML\bin\Debug\CSharp.XML.exe
+E:\VS2013\CSharp.XML\bin\Debug\CSharp.XML.pdb
+E:\VS2013\CSharp.XML\obj\x86\Debug\CSharp.XML.exe
+E:\VS2013\CSharp.XML\obj\x86\Debug\CSharp.XML.pdb

@@ -1,0 +1,8 @@
+E:\VS2013\MagicEightBallServiceHost\obj\x86\Debug\MagicEightBallServiceHost.csprojResolveAssemblyReference.cache
+E:\VS2013\MagicEightBallServiceHost\bin\Debug\MagicEightBallServiceHost.exe.config
+E:\VS2013\MagicEightBallServiceHost\bin\Debug\MagicEightBallServiceHost.exe
+E:\VS2013\MagicEightBallServiceHost\bin\Debug\MagicEightBallServiceHost.pdb
+E:\VS2013\MagicEightBallServiceHost\bin\Debug\MagicEightBallService.dll
+E:\VS2013\MagicEightBallServiceHost\bin\Debug\MagicEightBallService.pdb
+E:\VS2013\MagicEightBallServiceHost\obj\x86\Debug\MagicEightBallServiceHost.exe
+E:\VS2013\MagicEightBallServiceHost\obj\x86\Debug\MagicEightBallServiceHost.pdb
