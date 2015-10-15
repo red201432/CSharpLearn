@@ -3,3 +3,8 @@ E:\VS2013\Threading\bin\Debug\Threading.pdb
 E:\VS2013\Threading\obj\x86\Debug\Threading.exe
 E:\VS2013\Threading\obj\x86\Debug\Threading.pdb
 E:\VS2013\Threading\obj\x86\Debug\Threading.csprojResolveAssemblyReference.cache
+E:\Study\csharp\CSharpLearn\Threading\obj\x86\Debug\Threading.exe
+E:\Study\csharp\CSharpLearn\Threading\obj\x86\Debug\Threading.pdb
+E:\Study\csharp\CSharpLearn\Threading\bin\Debug\Threading.exe
+E:\Study\csharp\CSharpLearn\Threading\bin\Debug\Threading.pdb
+E:\Study\csharp\CSharpLearn\Threading\obj\x86\Debug\Threading.csprojResolveAssemblyReference.cache

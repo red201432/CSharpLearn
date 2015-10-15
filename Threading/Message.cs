@@ -9,11 +9,22 @@ namespace Threading
     {
         public string Name { get; set; }
         public int Age { get; set; }
-
+        public Person()
+        {
+            this.Name = Name;
+            this.Age = Age;
+        }
     }
     class Message
     {
-        public void ShowPerson(object person)
+        Person person = new Person();
+        public Person getPerson(string name,int age)
+        {
+            person.Name = name;
+            person.Age = age;
+            return person;
+        }
+        public void ShowPerson()
         {
             if (person != null)
             {

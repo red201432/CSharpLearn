@@ -37,6 +37,7 @@ namespace Threading
             #region 委托绑定方法不带参数
             Console.WriteLine("Main threadId is :" + Thread.CurrentThread.ManagedThreadId);
             Message message = new Message();
+        
             Thread thread=new Thread(new ThreadStart(message.ShowMessage));
             thread.IsBackground=true;
             thread.Start();
@@ -44,14 +45,17 @@ namespace Threading
             Console.WriteLine("Main thread working is complete!");
 
             #endregion
+            Console.WriteLine("################");
             #region 委托绑定方法带参数
             Person person = new Person();
             person.Name = "john";
             person.Age = 32;
-            Thread thread1 = new Thread(new ParameterizedThreadStart(message.ShowPerson));
+            message.getPerson("Herry", 221);
+            Thread thread1 = new Thread(new ThreadStart(message.ShowPerson));
             thread1.IsBackground = true;
             thread1.Start();
             #endregion
+            Console.WriteLine("################");
             #region 线程池
             //ThreadPool.SetMaxThreads(10000, 10000);//设置线程池的最大值
             //ThreadPool.QueueUserWorkItem(new WaitCallback(AsyncCallback));
@@ -69,6 +73,20 @@ namespace Threading
             // EndInvoke方法将被阻塞2秒
             int result = task.EndInvoke(asyncResult);
             Console.WriteLine(result);
+
+            // Supply the state information required by the task.
+            ThreadWithState tws = new ThreadWithState(
+                "This report displays the number {0}.", 2);
+
+            // Create a thread to execute the task, and then
+            // start the thread.
+            Thread t = new Thread(new ThreadStart(tws.ThreadProc));
+            t.Start();
+            Console.WriteLine("Main thread does some work, then waits.");
+            t.Join();
+            Console.WriteLine(
+                "Independent task has completed; main thread ends.");
+
         }
 
         static void AsynCallback(object state)
@@ -76,7 +94,6 @@ namespace Threading
             Thread.Sleep(200);
             //ThreadMessage("AsynCallback");
             Console.WriteLine("Async thread do work");
-
         }
     }
 }
